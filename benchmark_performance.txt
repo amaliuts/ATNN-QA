@@ -1,0 +1,17 @@
+Overview
+Our solution addresses the Kaggle Question Answering task, focusing on long answer identification and short answer extraction. We build separate models for each task and combine them.
+
+Techniques Used
+- data preprocessing
+- tokenization and embedding
+- classification model designed to predict the correctness of long answer candidates
+- model that predicts the start and end indices of short answers
+- evaluation metrics: accuracy, recall, precision, and F1 score
+- submission: .csv file containing predicted long and short answer tokens for submission
+
+For detailed implementation and results, refer to the comprehensive report.
+
+Kaggle notebook
+https://www.kaggle.com/code/irinarebegea/atnn-question-answering
+
+Competition score: 0.06003
